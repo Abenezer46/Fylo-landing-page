@@ -26,7 +26,7 @@ header{
 }
 .logo{
     width: 181px;
-    margin-right: 850px;
+    margin-right: 770px;
 }
 
 .header-list{
@@ -45,9 +45,9 @@ header{
     cursor: pointer;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1440px) {
     .logo{
-        margin-right: 450px;
+        margin-right: 850px;
     }
 }
 
@@ -302,7 +302,7 @@ header{
     border-radius: 10px;
     text-align: center;
     position: absolute;
-    bottom: -2350px;
+    bottom: -2570px;
     left: 50%;
     transform: translate(-50%);
 }
@@ -391,16 +391,15 @@ footer{
 
 .about{
     display: flex;
-    justify-content: space-between;
+    gap: 70px;
 }
 
 .ul-1{
-    margin-right: 78px;
     font-size: 12px;
 }
 
 .ul-2{
-    margin-right: 108px;
+    
     font-size: 12px;
 }
 
@@ -568,7 +567,7 @@ i.fab {
         border-radius: 10px;
         text-align: center;
         position: absolute;
-        bottom: -2920px;
+        bottom: -3200px;
         left: 50%;
         transform: translate(-50%);
     }
