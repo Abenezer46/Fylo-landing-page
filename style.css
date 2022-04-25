@@ -29,8 +29,6 @@ header{
     margin-right: 850px;
 }
 
-
-
 .header-list{
     display: flex;
     flex-direction: row;
@@ -53,22 +51,7 @@ header{
     }
 }
 
-@media only screen and (max-width: 375px) {
-    li{
-        margin-right: 15px;
-    }
-    header{
-        margin: 29px 20px 45px 20px;
-        padding: 0px;
-    }
-    .logo{
-        width: 80px;
-        margin-right: 60px;
-    }
-    .header-list{
-        margin-top: 0;
-    }
-}
+
 
 .files{
     min-width: 726;
@@ -113,37 +96,6 @@ header{
         padding: 0 40px;
     }
 }
-
-@media only screen and (max-width: 375px) {
-    .files{
-        margin: 0px 5px;
-    }
-
-    .f-img{
-        width: 300px;
-    }
-
-    .f-title{
-        font-size: 22px;
-        padding: 0 20px;
-
-    }
-
-    .f-p-text{
-        margin: 24px 0 31px;
-        padding: 0 60px;
-        font-size: 12px;
-    }
-
-    .f-button{
-        background-color: hsl(198, 60%, 50%);
-        padding: 15px 50px;
-        font-size: 12px;
-    }
-    
-    
-}
-
 
 .Features{
     min-width: 726;
@@ -209,41 +161,6 @@ header{
     }
 }
 
-@media only screen and (max-width: 375px) {
-    .Features{
-        margin: 130px 0 0 0;
-        flex-direction: column;
-        padding: 0px 55px;
-    }
-
-    .top{
-        flex-direction: column;
-        gap:50px;
-        margin-bottom: 50px;
-    }
-    .bottom{
-        flex-direction: column;
-        gap: 50px;
-    }
-
-    .access{
-        margin-top: 0px;
-    }
-
-    .cimg{
-        width: 65px;
-    }
-    .c-title{
-        font-size: 13px;
-    }
-    .c-text{
-        font-size: 10px;
-        padding: 0 10px;
-
-    }
-}
-
-
 .Stay{
     display: flex;
     margin: 0 80px 140px 80px;
@@ -303,37 +220,6 @@ header{
         padding-right: 0;
         font-size: 11px;
         margin-bottom: 17px;
-    }
-}
-@media only screen and (max-width: 375px) {
-    .Stay{
-        flex-direction: column;
-        margin: 0px;
-        padding: 0 35px;
-        margin-bottom: 150px;
-    }
-    .s-img{
-        width: 308px;
-        
-    }
-
-    .s-title{
-        font-size: 15px;
-    }
-    .s-text{
-        font-size: 13px;
-        border: none;
-    }
-
-    .s-link{
-        font-size: 12px;
-        border-bottom: 1.5px solid hsl(198, 60%, 50%);
-    }
-
-    .s-link-img{
-        width: 13px;
-        height: 13px;
-        margin-top: 2px;
     }
 }
 
@@ -408,18 +294,6 @@ header{
     }
 }
 
-@media only screen and (max-width: 375px) {
-    .Team{
-        flex-direction: column;
-        margin: 300px 15px;
-        background-size: 30px;
-        padding:20px 0 0 0;
-    }
-    .card{
-        padding-right: 35px;
-    }
-}
-
 
 .Sign-In{
     width: 868px;
@@ -467,41 +341,6 @@ header{
     font-size: 10px;
 }
 
-
-
-@media only screen and (max-width: 375px) {
-    .Sign-In{
-        max-width:350px;
-        padding: 38px 0px 35px;
-        background-color: #1c2431;
-        border-radius: 10px;
-        text-align: center;
-        position: absolute;
-        bottom: -2900px;
-        left: 50%;
-        transform: translate(-50%);
-    }
-
-    .sign-title{
-        font-size: 20px;
-        margin-bottom: 23px;
-    }
-    .sign-text{
-        font-size: 15px;
-        padding:0 20px;
-        margin-bottom: 36px;
-    }
-    form{
-        display: flex;
-        flex-direction: column;
-        padding: 0 28px;
-    }
-    #email{
-        padding: 17px 145px;
-        margin-bottom: 20px;
-    }
-
-}
 
 footer{
     background-color: hsl(216, 53%, 9%);
@@ -597,10 +436,167 @@ i.fab {
 }
 
 @media only screen and (max-width: 375px) {
+
+ /*header*/
+
+    li{
+        margin-right: 15px;
+    }
+    header{
+        margin: 29px 20px 45px 20px;
+        padding: 0px;
+    }
+    .logo{
+        width: 80px;
+        margin-right: 60px;
+    }
+    .header-list{
+        margin-top: 0;
+    }
+
+ /*files*/
+
+    .files{
+        margin: 0px 5px;
+    }
+
+    .f-img{
+        width: 300px;
+    }
+
+    .f-title{
+        font-size: 22px;
+        padding: 0 20px;
+
+    }
+
+    .f-p-text{
+        margin: 24px 0 31px;
+        padding: 0 60px;
+        font-size: 12px;
+    }
+
+    .f-button{
+        background-color: hsl(198, 60%, 50%);
+        padding: 15px 50px;
+        font-size: 12px;
+    }
+
+ /*features*/
+
+    .Features{
+        margin: 130px 0 0 0;
+        flex-direction: column;
+        padding: 0px 55px;
+    }
+
+    .top{
+        flex-direction: column;
+        gap:50px;
+        margin-bottom: 50px;
+    }
+    .bottom{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .access{
+        margin-top: 0px;
+    }
+
+    .cimg{
+        width: 65px;
+    }
+    .c-title{
+        font-size: 13px;
+    }
+    .c-text{
+        font-size: 10px;
+        padding: 0 10px;
+
+    }
+
+ /*stay*/
+
+    .Stay{
+        flex-direction: column;
+        margin: 0px;
+        padding: 0 35px;
+        margin-bottom: 150px;
+    }
+    .s-img{
+        width: 308px;
+        
+    }
+
+    .s-title{
+        font-size: 15px;
+    }
+    .s-text{
+        font-size: 13px;
+        border: none;
+    }
+
+    .s-link{
+        font-size: 12px;
+        border-bottom: 1.5px solid hsl(198, 60%, 50%);
+    }
+
+    .s-link-img{
+        width: 13px;
+        height: 13px;
+        margin-top: 2px;
+    }
+
+ /*teams*/
+ .Team{
+    flex-direction: column;
+    margin: 300px 15px;
+    background-size: 30px;
+    padding:20px 0 0 0;
+}
+.card{
+    padding-right: 35px;
+}
+
+ /*sign in*/
+
+    .Sign-In{
+        max-width:350px;
+        padding: 38px 0px 35px;
+        background-color: #1c2431;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+        bottom: -2920px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .sign-title{
+        font-size: 20px;
+        margin-bottom: 23px;
+    }
+    .sign-text{
+        font-size: 15px;
+        padding:0 20px;
+        margin-bottom: 36px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        padding: 0 28px;
+    }
+    #email{
+        padding: 17px 145px;
+        margin-bottom: 20px;
+    }
+
+ /*footer*/
+
     footer{
         padding: 250px 0 0 26px;
         height: auto;
-        overflow: hidden;
     }
     .footer-con{
         flex-direction: column;
